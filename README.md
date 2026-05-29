@@ -4,7 +4,7 @@ A personal scratchpad of interesting C++ changes, features, and moments that are
 
 ---
 
-## 🪵 Logging Is *Finally* Good in C++ (C++23 `std::print` & `std::println`)
+##  Logging Is *Finally* Good in C++ (C++23 `std::print` & `std::println`)
 
 For **decades**, C++ developers had two bad options for output: `printf` (fast but type-unsafe, zero extensibility) and `std::cout` (type-safe but painfully verbose with `<<` chaining). The community basically accepted this and moved on.
 
@@ -17,7 +17,7 @@ It took C++ roughly **40 years** to get a proper print function. But honestly? I
 
 ---
 
-## 🔥 Modules Might Actually Kill `#include` (C++20)
+##  Modules Might Actually Kill `#include` (C++20)
 
 The `#include` system is arguably the single worst thing about C++. Textual inclusion, header guards, include order dependencies, insane compile times — it's a mess inherited from C in the 1970s.
 
@@ -27,7 +27,7 @@ In practice? Compiler support is *still* catching up in 2026. MSVC is ahead, GCC
 
 ---
 
-## ⚡ `constexpr` Has Gone Absolutely Wild
+##  `constexpr` Has Gone Absolutely Wild
 
 `constexpr` started in C++11 as "you can compute simple stuff at compile time." Look at where it is now:
 
@@ -40,7 +40,7 @@ You can now write a JSON parser that runs entirely at compile time. That's not a
 
 ---
 
-## 🦀 C++ Is Taking Memory Safety Seriously (Finally)
+##  C++ Is Taking Memory Safety Seriously (Finally)
 
 Rust's popularity forced a conversation the C++ world had been avoiding. The US government literally published guidance saying "stop using memory-unsafe languages." That's a wake-up call.
 
@@ -54,7 +54,7 @@ C++ isn't going to become Rust. But it's clearly evolving to close the gap.
 
 ---
 
-## 🧵 Coroutines Exist But Nobody Agrees on How to Use Them (C++20)
+##  Coroutines Exist But Nobody Agrees on How to Use Them (C++20)
 
 C++20 added coroutines (`co_await`, `co_yield`, `co_return`). The feature itself is powerful — stackless coroutines with compiler-generated state machines.
 
@@ -69,7 +69,7 @@ C++26's `std::execution` might finally give us a batteries-included async story.
 
 ---
 
-## 📦 Pattern Matching Is Coming (Maybe C++26/29)
+##  Pattern Matching Is Coming (Maybe C++26/29)
 
 `std::visit` with `std::variant` is functional but ugly. The pattern matching proposal (`inspect`) would let you write:
 
@@ -85,7 +85,7 @@ This has been in the works for years. If it lands, it'll make working with varia
 
 ---
 
-## 🧹 C++23's Small but Brilliant Additions
+##  C++23's Small but Brilliant Additions
 
 Sometimes the best features aren't the flashy ones:
 
@@ -98,7 +98,7 @@ Sometimes the best features aren't the flashy ones:
 
 ---
 
-## 🗓️ What's On the Horizon (C++26 and Beyond)
+##  What's On the Horizon (C++26 and Beyond)
 
 - **`std::execution`** — A complete async/parallel framework. The big one for C++26.
 - **Reflection** — Compile-time introspection of types. Would enable automatic serialization, ORM, debug printing, etc. This alone could eliminate massive amounts of boilerplate.
