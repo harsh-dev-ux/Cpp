@@ -4,7 +4,7 @@ A personal scratchpad of interesting C++ changes, features, and moments that are
 
 ---
 
-## 🖨️ Logging Is *Finally* Good in C++ (C++23 `std::print` & `std::println`)
+## Logging Is *Finally* Good in C++ (C++23 `std::print` & `std::println`)
 
 If you've written C++ for even a week, you've used `cout`. It works. But it's ugly. And there's something better now.
 Let me explain the whole story in 2 minutes.
@@ -69,7 +69,7 @@ cout << "a=" << a << " b=" << b << " sum=" << a+b << endl;
 
 ---
 
-## 📦 Modules Might Actually Kill `#include` (C++20)
+##  Modules Might Actually Kill `#include` (C++20)
 
 ### The Worst Thing About C++ Is Finally Getting Fixed
 
@@ -151,7 +151,7 @@ So for competitive programming — stick with `#include` for now. It just works 
 
 ---
 
-## ⚡ `constexpr` Has Gone Absolutely Wild
+##  `constexpr` Has Gone Absolutely Wild
 
 ### From Simple Constants to Compile-Time Superpowers
 
@@ -251,7 +251,7 @@ For CP you probably won't use advanced `constexpr` much. But understanding it ma
 
 ---
 
-## 🛡️ C++ Is Taking Memory Safety Seriously (Finally)
+##  C++ Is Taking Memory Safety Seriously (Finally)
 
 ### C++ Has a Memory Problem — And It's Finally Doing Something About It
 
